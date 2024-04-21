@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* setting variables */
+  --white: #ffffff;
+  --black: #000000;
+  --primary1: #231e36;
+  --primary2: #312b51;
+  --secondary1: #ff45cb;
+  --secondary2: #ce89c4;
+  --senondary3: #907dc9;
+
+  --regular-font: 400;
+  --bold-font: 700;
+
+  --h1-fontsize: 4.5rem;
+  --h2-fontsize: 3rem;
+  --h3-fontsize: 2rem;
+  --h4-fontsize: 1.25rem;
+  --h5-fontsize: 1.25rem;
+  --regular-fontsize: 1rem;
+  --small-fontsize: 0.75rem;
+
+  --regular-boarder: 0.5rem;
+}
+
+body {
+  font-family: Kanit;
+}
+
+p {
+  width: 50%;
+  padding: 30px;
+  margin: 10px;
+}
+
+header,
+header * {
+  /* outline: solid 1px; */
+  z-index: 2;
+  color: var(--white);
+}
+
+nav ul {
+  font-size: 1.25em 20%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--primary2);
+  padding: 20px 0%;
+  margin: 0;
+  /* height: 100px; */
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  font-weight: var(--bold-font);
+  filter: drop-shadow(4px 4px 8px var(--primary1));
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+body main {
+  margin-top: 60px;
+}
+
+h2 {
+  color: var(--white);
+  font-size: var(--h2-fontsize);
+  margin: 0%;
+  padding: 0%;
+  margin-left: 90px;
+  display: inline;
+}
+
+h3 {
+  font-size: var(--h3-fontsize);
+}
+
+h4 {
+  font-size: var(--h4-fontsize);
+}
+
+p {
+  font-size: var(--regular-fontsize);
+}
+/* Section welcome*/
+
+h1 {
+  color: var(--white);
+  font-size: var(--h2-fontsize);
+  margin: 0%;
+  margin-left: 90px;
+  /* width: 100%; */
+}
+
+#welcome {
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  padding: 0px;
+  background-color: var(--primary1);
+  justify-content: center;
+}
+
+h1 .name {
+  font-size: 4.5rem;
+  color: var(--secondary1);
+}
+
+#welcome p {
+  color: var(--white);
+  margin-left: 90px;
+  width: 60ch;
+  font-size: 1.5rem;
+  padding: 0%;
+  font-weight: var(--bold-font);
+}
+
+#welcome img {
+  width: 600px;
+  position: absolute;
+  right: 50px;
+}
+
+/* Section About Me */
+
+#info {
+  margin: auto;
+  color: var(--white);
+  background-color: var(--primary2);
+  height: 800px;
+  flex-direction: column;
+  padding: 5rem;
+  justify-content: center;
+  display: center;
+}
+
+.ann {
+  padding: 1rem;
+  left: 0px;
+  margin: 0px;
+  color: var(--secondary1);
+}
+
+#info h3 {
+  left: 90px;
+}
+
+#info h4 {
+
+  padding-left: 30px;
+
+}
+
+/* Section Education */
+
+#education {
+  display: flex;
+  margin: auto;
+  background-color: var(--primary1);
+  height: 800px;
+  flex-direction: column;
+  padding: 5rem;
+  justify-content: center;
+}
