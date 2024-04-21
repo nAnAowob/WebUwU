@@ -118,7 +118,7 @@ h1 {
 
 h1 .name {
   font-size: 4.5rem;
-  color: var(--secondary1);
+  color: var(--secondary2);
 }
 
 #welcome p {
@@ -161,9 +161,7 @@ h1 .name {
 }
 
 #info h4 {
-
   padding-left: 30px;
-
 }
 
 /* Section Education */
