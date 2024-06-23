@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  width: 80ch;
+}
+
+form {
+  border: dashed 2px;
+  width: fit-content;
+  padding: 1em;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#text-small {
+  font-size: 0.5rem;
+}
+
+#text-medium {
+  font-size: 1rem;
+}
+
+#text-large {
+  font-size: 1.5rem;
+}
+
+.dark-mode {
+    color: white;
+    background-color: black;
+}

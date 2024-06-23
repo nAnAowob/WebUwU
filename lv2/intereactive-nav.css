@@ -1,0 +1,17 @@
+* {
+    box-sizing: boarder-box;
+}
+
+p {
+    width: 80;
+}
+
+menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#menu-demo section{
+    
+}
